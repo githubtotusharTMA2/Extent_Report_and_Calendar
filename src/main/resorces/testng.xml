@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "Learnings_TMA">
+	
+	<listeners>
+		<listener class-name = "extent_report_listener.Extent_Report_Listener"/>
+	</listeners>
+	
+	<test name = "Learnings_TMA_testcases">
+		<classes>
+			<class name = "testcases.CalendarSelectTest"></class>
+			<class name = "testcases.CalendarByJS"></class>
+		</classes>
+	</test>
+	
+	
+</suite>
